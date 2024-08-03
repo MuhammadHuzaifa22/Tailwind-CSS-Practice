@@ -1,15 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project 2</title>
+  </head>
+  <body>
+    <!-- ., Body Section -->
+    <!-- ., Form Section -->
+    <div
+      class="form border-[2px] mx-auto w-[400px] sm:w-[600px] lg:w-[750px] 2xl:w-[880px] mt-[100px] px-[20px] rounded-md hover:shadow-2xl hover:duration-[100ms] text-blue-700 bg-stone-200"
+    >
+    <!-- ., Form Head -->
+      <h1 class="text-3xl lg:text-4xl">
+        Job Application <span class="text-xl lg:text-2xl">(Web)</span>
+      </h1>
+      <div class="form-div-section flex gap-[20px] lg:gap-[50px] sm:flex-wrap lg:flex-nowrap justify-center" justify-center">
+        <div class="div-1 flex flex-col">
+          <!-- ., Form Label -->
+          <label class="text-xl lg:text-2xl mt-[20px]">Fisrt Name</label>
+          <!-- ., Form Input -->
+          <input
+            type="text"
+            placeholder="Firstname"
+            class="text-xs sm:text-xl lg:text-2xl rounded-md w-[170px] sm:w-[250px] lg:w-[310px] max-w-xs mt-1 border-2 p-1 border-blue-500 text-blue-700"
+          />
+           <!-- ., Form Label -->
+          <label class="text-xl lg:text-2xl mt-[10px] ">Email</label>
+          <!-- ., Form Input -->
+          <input
+            type="text"
+            placeholder="Enter email"
+            class="text-xs sm:text-xl lg:text-2xl rounded-md  w-[170px] sm:w-[250px] lg:w-[310px] max-w-xs mt-1 border-2 p-1 border-blue-500 text-blue-700"
+          />
+          <!-- ., Form Label -->
+          <label class="text-xl lg:text-2xl mt-[10px]">Address</label>
+          <!-- ., Form Input -->
+          <input
+            type="text"
+            placeholder="Enter address"
+            class="text-xs sm:text-xl lg:text-2xl rounded-md w-[170px] sm:w-[250px] lg:w-[310px] max-w-xs mt-1 h-[30px] sm:h-[40px] lg:h-[70px] border border-blue-500 text-blue-700 p-2"
+          />
+          <!-- ., Form Label -->
+          <label class="text-xl lg:text-2xl mt-[10px]">Pincode</label>
+          <!-- ., Form Input -->
+          <input
+            type="number"
+            placeholder="Enter number"
+            class="text-xs sm:text-xl lg:text-2xl rounded-md  w-[170px] sm:w-[250px] lg:w-[310px] max-w-xs mt-1 p-1 border-2 border-blue-500"
+          />
+          <!-- ., Form Label -->
+          <label class="text-xl lg:text-2xl mt-[10px]">Upload Your CV</label>
+          <!-- ., Form Input -->
+          <input
+            type="file"
+            class="text-xs sm:text-xl lg:text-2xl rounded-md w-[170px] sm:w-[250px] lg:w-[310px] max-w-xs mt-1 p-2 border-2 border-blue-500"
+          />
+        </div>
+        <!-- ., Form flex Column Div -->
+        <div class="div-2 flex flex-col">
+          <!-- ., Form Label -->
+          <label class="text-xl lg:text-2xl mt-[20px]">Last Name</label>
+          <!-- ., Form Input -->
+          <input
+            type="text"
+            placeholder="Lastname"
+            class="text-xs sm:text-xl lg:text-2xl rounded-md w-[170px] sm:w-[250px] lg:w-[310px] max-w-xs mt-1 border-2 p-1 border-blue-500 text-blue-700"
+          />
+          <!-- ., Form Input -->
+          <label class="text-xl lg:text-2xl mt-[20px] border-blue-500 text-blue-700">Job Role</label>
+          <!-- ., Form Select Input Options -->
+          <select class="text-xs sm:text-xl lg:text-2xl p-1 border-2 rounded-md w-[200px] sm:w-[250px] lg:w-[310px] mt-2 border-blue-500 text-blue-700">
+             <option value="Select Jo b Role" class="text-blue-700 bg-cyan-600 text-slate-300">Select Job Role</option>
+            <option value="Frontend Developer" class="text-blue-700 bg-cyan-600 text-slate-300">Frontend Developer</option>
+            <option value="Backend Developer" class="text-blue-700 bg-cyan-600 text-slate-300">Backend Developer</option>
+            <option value="Fullstack Developer" class="text-blue-700 bg-cyan-600 text-slate-300">Fullstack Developer</option>
+            <option value="Ui Ux Designer Developer" class="text-blue-700 bg-cyan-600 text-slate-300 ">Ui Ux Designer</option>
+          </select>
+             <!-- ., Form Label -->
+            <label class="text-lg sm:text-xl lg:text-2xl lg:text-2xl mt-[20px]">City</label>
+            <!-- ., Form Input -->
+            <input
+              type="text"
+              placeholder="Enter city name"
+              class="text-xs sm:text-xl lg:text-2xl rounded-md w-[170px] sm:w-[250px] lg:w-[310px] max-w-xs mt-1 border-2 p-1 border-blue-500 text-blue-700"
+            /> 
+            <!-- ., Form Label -->
+            <label class="text-xs sm:text-xl lg:text-2xl lg:text-2xl mt-[20px]">Date</label>
+            <!-- ., Form Input -->
+            <input
+              type="date"
+              class="text-xs sm:text-xl lg:text-2xl rounded-md w-[170px] sm:w-[250px] lg:w-[310px] max-w-xs mt-1 border-2 p-1 border-blue-500 text-blue-700"
+            />
+        </div>
+        
+      </div>
+    </div>
 
-</head>
-<body>
-    
-
-
-    
-</body>
+    <!-- ., Daisy Ui Cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- ., Tailwind CSS Cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
 </html>
