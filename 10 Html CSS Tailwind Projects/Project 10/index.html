@@ -1,11 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- ., Font Awesome Cdn -->
+    <script
+      src="https://kit.fontawesome.com/0ae0890014.js"
+      crossorigin="anonymous"
+    ></script>
+
+  </head>
+  <body class="border-[5px] border-[white]">
+    <!-- ., Navbar section started -->
+    <div
+      class="navbar px-[5px] xs:px-[5px] sm:px-[8px] md:px-[10px] px-[15px] lg:px[20px] flex justify-between items-center py-[5px] xs:py-[8px] sm:py-[10px] md:py-[15px] lg:py-[20px] bg-[#0089b7] text-slate-50"
+    >
+      <div class="pl-[20px]">
+        <a
+          href="index.html"
+          class="font-light xs:font-light sm:font-normal md:font-medium lg:font-semibold lg:text-2xl cursor-pointer"
+          >Portfolio</a
+        >
+      </div>
+      <div
+        class="flex gap-[15px] xs:gap-[15px] sm:gap-[18px] md:gap-[20px] lg:gap-[25px] pr-[5px] xs:pr-[5px] sm:text-[10px] md:pr-[20px] lg:pr-[30px] text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl hidden sm:hidden md:block lg:block"
+      >
+        <a
+          href="index.html"
+          class="transition-ease-in hover:duration-[270ms] border-b-[5px] border-[#0089b7] hover:border-b-[5px] hover:border-[yellow] mr-[20px]"
+          >Home</a
+        >
+        <a
+          href="#projects"
+          class="transition-ease-in hover:duration-[270ms] border-b-[5px] border-[#0089b7] hover:border-b-[5px] hover:border-[yellow] mr-[20px]"
+          >Projects</a
+        >
+        <a
+          href="#contacts"
+          class="transition-ease-in hover:duration-[200ms] border-b-[5px] border-[#0089b7] hover:border-b-[5px] hover:border-[yellow]"
+          >Contact</a
+        >
+      </div>
+
+      <div class="block sm:block md:hidden lg:hidden">
+        <i
+          class="fa-solid fa-bars p-2 hover:border-[2px] hover:border-[yellow] rounded-lg hover:transition-ease-in hover:duration-[250ms]"
+        ></i>
+      </div>
+    </div>
+    <!-- ., Navbar section ended -->
+
+    <!-- ., Hero section started -->
+    <div
+      class="bg-[#003d62] text-white h-[50vh] xs:h-[60vh] sm:h-[80vh] md:h-[90vh] h-[100vh] flex items-center justify-center gap-[40px] xs:gap-[60px] sm:gap-[80px] md:gap-[100px] lg:gap-[150px] flex-col md:flex-col lg:flex-row px-[20px] border-b-[5px] border-b-[white]"
+    >
+      <div>
+        <img
+          src="./Assets/Images/hero.png"
+          alt="hero-image"
+          class="h-[250px] xs:h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px]"
+        />
+      </div>
+      <div
+        class="flex flex-col gap-[20px] text-center md:text-center lg:text-start"
+      >
+        <h1
+          class="text-[yellow] font-light xs:font-light sm:font-normal md:font-medium lg:font-semibold text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl"
+        >
+          Hi,<span
+            class="text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white"
+            >I am </span
+          ><span
+            class="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white"
+            >Muhammad Huzaifa</span
+          >
+        </h1>
+        <h1 class="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+          Front End Developer
+        </h1>
+      </div>
+    </div>
+    <!-- ., Hero section ended -->
+
+
+
+    <!-- ., Project section started -->
+    <div class="projects-section bg-[#003d62] 2xl:h-[220vh] px-[40px]">
+      <h1
+        class="text-white text-center pt-[20px] text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl font-thin xs:font-light sm:font-normal md:font-medium lg:font-semibold"
+      >
+        PROJECTS
+      </h1>
+      <div class="project-cards flex flex-wrap justify-center gap-[40px] mt-[50px]">
+          <!-- ., Card 1 -->
+          
+          <div class="card---project-section w-[240px] bg-indigo-50 xs:w-[250px] sm:w-[270px] md:w-[280px] lg:w-[300px] text-black rounded-lg shadow-[1px_1px_15px_black] hover:shadow-[1px_1px_15px_white] transition-ease-in transform hover:scale-110 duration-[200ms]">
+          <img src="./Assets/Images/project1.png" alt="" class="rounded-lg border-b-[2px] border-[black]" />
+          <div class="details-div p-[10px] text-center flex gap-[10px] flex-col ">
+
+              <h1 class="text-sm xs:text-md sm::text-lg md:text-xl lg:text-2xl font-light xs:font-normal sm:font-medium md:font-semibold lg:font-bold">Tribute Website</h1>
+              <h1 class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-light sm:font-normal md:font-medium lg:font-semibold">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos minus
+                  est explicabo esse, similique hic asperiores repellendus sequi
+                  laboriosam dolores?
+                </h1>
+            </div>
+        </div>
+
+
+
+        <!-- ., Card 2 -->
+          
+        <div class="card---project-section w-[240px] bg-indigo-50 xs:w-[250px] sm:w-[270px] md:w-[280px] lg:w-[300px] text-black rounded-lg shadow-[1px_1px_15px_black] hover:shadow-[1px_1px_15px_white] transition-ease-in transform hover:scale-110 duration-[200ms]">
+            <img src="./Assets/Images/project2.png" alt="" class="rounded-lg border-b-[2px] border-[black]" />
+            <div class="details-div p-[10px] text-center flex gap-[10px] flex-col ">
+  
+                <h1 class="text-sm xs:text-md sm::text-lg md:text-xl lg:text-2xl font-light xs:font-normal sm:font-medium md:font-semibold lg:font-bold">Job Application Form</h1>
+                <h1 class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-light sm:font-normal md:font-medium lg:font-semibold">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos minus
+                    est explicabo esse, similique hic asperiores repellendus sequi
+                    laboriosam dolores?
+                  </h1>
+              </div>
+          </div>
+
+
+
+          <!-- ., Card 3 -->          
+          <div class="card---project-section w-[240px] bg-indigo-50 xs:w-[250px] sm:w-[270px] md:w-[280px] lg:w-[300px] text-black rounded-lg shadow-[1px_1px_15px_black] hover:shadow-[1px_1px_15px_white] transition-ease-in transform hover:scale-110 duration-[200ms]">
+            <img src="./Assets/Images/project3.png" alt="" class="rounded-lg border-b-[2px] border-[black]" />
+            <div class="details-div p-[10px] text-center flex gap-[10px] flex-col ">
+  
+                <h1 class="text-sm xs:text-md sm::text-lg md:text-xl lg:text-2xl font-light xs:font-normal sm:font-medium md:font-semibold lg:font-bold">Parallax Website</h1>
+                <h1 class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-light sm:font-normal md:font-medium lg:font-semibold">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos minus
+                    est explicabo esse, similique hic asperiores repellendus sequi
+                    laboriosam dolores?
+                  </h1>
+              </div>
+          </div>
+
+
+
+          <!-- ., Card 4 -->
+          
+          <div class="card---project-section w-[240px] bg-indigo-50 xs:w-[250px] sm:w-[270px] md:w-[280px] lg:w-[300px] text-black rounded-lg shadow-[1px_1px_15px_black] hover:shadow-[1px_1px_15px_white] transition-ease-in transform hover:scale-110 duration-[200ms]">
+            <img src="./Assets/Images/project4.png" alt="" class="rounded-lg border-b-[2px] border-[black]" />
+            <div class="details-div p-[10px] text-center flex gap-[10px] flex-col ">
+  
+                <h1 class="text-sm xs:text-md sm::text-lg md:text-xl lg:text-2xl font-light xs:font-normal sm:font-medium md:font-semibold lg:font-bold">Developer Landing Page</h1>
+                <h1 class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-light sm:font-normal md:font-medium lg:font-semibold">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos minus
+                    est explicabo esse, similique hic asperiores repellendus sequi
+                    laboriosam dolores?
+                  </h1>
+              </div>
+          </div>
+
+
+
+
+          <!-- ., Card 5 -->
+          
+          <div class="card---project-section w-[240px] bg-indigo-50 xs:w-[250px] sm:w-[270px] md:w-[280px] lg:w-[300px] text-black rounded-lg shadow-[1px_1px_15px_black] hover:shadow-[1px_1px_15px_white] transition-ease-in transform hover:scale-110 duration-[200ms]">
+            <img src="./Assets/Images/project5.png" alt="" class="rounded-lg border-b-[2px] border-[black]" />
+            <div class="details-div p-[10px] text-center flex gap-[10px] flex-col ">
+  
+                <h1 class="text-sm xs:text-md sm::text-lg md:text-xl lg:text-2xl font-light xs:font-normal sm:font-medium md:font-semibold lg:font-bold">Restaurant Website</h1>
+                <h1 class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-light sm:font-normal md:font-medium lg:font-semibold">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos minus
+                    est explicabo esse, similique hic asperiores repellendus sequi
+                    laboriosam dolores?
+                  </h1>
+              </div>
+          </div>
+
+
+
+
+          <!-- ., Card 6 -->
+          
+          <div class="card---project-section w-[240px] bg-indigo-50 xs:w-[250px] sm:w-[270px] md:w-[280px] lg:w-[300px] text-black rounded-lg shadow-[1px_1px_15px_black] hover:shadow-[1px_1px_15px_white] transition-ease-in transform hover:scale-110 duration-[200ms]">
+            <img src="./Assets/Images/project6.png" alt="" class="rounded-lg border-b-[2px] border-[black]" />
+            <div class="details-div p-[10px] text-center flex gap-[10px] flex-col ">
+  
+                <h1 class="text-sm xs:text-md sm::text-lg md:text-xl lg:text-2xl font-light xs:font-normal sm:font-medium md:font-semibold lg:font-bold">Music Website</h1>
+                <h1 class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-light sm:font-normal md:font-medium lg:font-semibold">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos minus
+                    est explicabo esse, similique hic asperiores repellendus sequi
+                    laboriosam dolores?
+                  </h1>
+              </div>
+          </div>
+
+
+
+
+          <!-- ., Card 7 -->
+          
+          <div class="card---project-section w-[240px] bg-indigo-50 xs:w-[250px] sm:w-[270px] md:w-[280px] lg:w-[300px] text-black rounded-lg shadow-[1px_1px_15px_black] hover:shadow-[1px_1px_15px_white] transition-ease-in transform hover:scale-110 duration-[200ms]">
+            <img src="./Assets/Images/project7.png" alt="" class="rounded-lg border-b-[2px] border-[black]" />
+            <div class="details-div p-[10px] text-center flex gap-[10px] flex-col ">
+  
+                <h1 class="text-sm xs:text-md sm::text-lg md:text-xl lg:text-2xl font-light xs:font-normal sm:font-medium md:font-semibold lg:font-bold">Youtube Landing Page</h1>
+                <h1 class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-light sm:font-normal md:font-medium lg:font-semibold">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos minus
+                    est explicabo esse, similique hic asperiores repellendus sequi
+                    laboriosam dolores?
+                  </h1>
+              </div>
+          </div>
+
+
+
+          <!-- ., Card 8 -->
+          
+          <div class="card---project-section w-[240px] bg-indigo-50 xs:w-[250px] sm:w-[270px] md:w-[280px] lg:w-[300px] text-black rounded-lg shadow-[1px_1px_15px_black] hover:shadow-[1px_1px_15px_white] transition-ease-in transform hover:scale-110 duration-[200ms]">
+            <img src="./Assets/Images/project8.png" alt="" class="rounded-lg border-b-[2px] border-[black]" />
+            <div class="details-div p-[10px] text-center flex gap-[10px] flex-col ">
+  
+                <h1 class="text-sm xs:text-md sm::text-lg md:text-xl lg:text-2xl font-light xs:font-normal sm:font-medium md:font-semibold lg:font-bold">Introduction Website</h1>
+                <h1 class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-light sm:font-normal md:font-medium lg:font-semibold">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos minus
+                    est explicabo esse, similique hic asperiores repellendus sequi
+                    laboriosam dolores?
+                  </h1>
+              </div>
+          </div>
+
+
+
+          <!-- ., Card 9 -->
+          
+          <div class="card---project-section w-[240px] bg-indigo-50 xs:w-[250px] sm:w-[270px] md:w-[280px] lg:w-[300px] text-black rounded-lg shadow-[1px_1px_15px_black] hover:shadow-[1px_1px_15px_white] transition-ease-in transform hover:scale-110 duration-[200ms]">
+            <img src="./Assets/Images/project9.png" alt="" class="rounded-lg border-b-[2px] border-[black]" />
+            <div class="details-div p-[10px] text-center flex gap-[10px] flex-col ">
+  
+                <h1 class="text-sm xs:text-md sm::text-lg md:text-xl lg:text-2xl font-light xs:font-normal sm:font-medium md:font-semibold lg:font-bold">Blog Website</h1>
+                <h1 class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-light sm:font-normal md:font-medium lg:font-semibold">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos minus
+                    est explicabo esse, similique hic asperiores repellendus sequi
+                    laboriosam dolores?
+                  </h1>
+              </div>
+          </div>
+
+
+
+
+      </div>
+    </div>
+    <!-- ., Project section ended-->
+
+
+
+<!-- ., Contact section started -->
+<div class="contact-section flex flex-col justify-center items-center bg-[#003d62] border-t-[10px] border-[white] text-center">
+  <div class="flex justify-center flex-col gap-[30px] text-white p-[30px] ">
+
+    <h1 class="mt-[20px] text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl font-light xs:font-normal sm:font-medium md:font-semibold lg:font-bold">Lets Work Together</h1>
+    <div class="flex gap-[50px] text-md xs:text-lg sm:text-xl md:text-2xl lg:text-3xl font-light xs:font-light sm:font-normal md:font-medium lg:font-semibold">
+      <h1 class="hover:border-[yellow] border-[#003d62] cursor-pointer transition-ease-in duration-[300ms] border-b-[3px]"><i class="fa-brands fa-linkedin transform transition-ease-in  cursor-pointer :scale-110"></i> Linkedin</h1>
+      <h1 class="hover:border-[yellow] border-[#003d62] cursor-pointer transition-ease-in duration-[300ms] border-b-[3px]"><i class="fa-brands fa-x-twitter"></i> Twitter</h1>
+      <h1 class="hover:border-[yellow] border-[#003d62] cursor-pointer transition-ease-in duration-[300ms] border-b-[3px]"><i class="fa-solid fa-at"></i> Send Mail</h1>
+    </div>
+  </div>
+<div class="flex gap-[30px] text-white text-md xs:text-lg sm:text-xl md:text-2xl lg:text-3xl font-light xs:font-light sm:font-normal md:font-medium lg:font-semibold mb-[30px]">
+  <h1 class="hover:border-[yellow] border-[#003d62] cursor-pointer transition-ease-in duration-[300ms] border-b-[3px]"><i class="fa-brands fa-github"></i> Github</h1>
+  <h1 class="hover:border-[yellow] border-[#003d62] cursor-pointer transition-ease-in duration-[300ms] border-b-[3px]"><i class="fa-solid fa-mobile-screen"></i> Mobile</h1>
+</div>
+
+  
+</div>
+<!-- ., Contact section ended -->
+
+
+
+    <!-- ., Daisy Ui Cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- ., Tailwind CSS Cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
 </html>
