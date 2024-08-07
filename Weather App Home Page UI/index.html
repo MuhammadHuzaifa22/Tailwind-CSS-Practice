@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App Home Page</title>
+
+    <!-- ., Font Awesome Cdn -->
+    <script
+      src="https://kit.fontawesome.com/0ae0890014.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-cyan-700 h-[160vh] xs:h-[130vh] sm:h-[120vh] md:h-[100vh] lg:h-[100vh]">
+    <div
+      class="search-bar flex justify-center flex-col mx-auto w-[300px] xs:w-[400px] sm:w-[500px] md:w-[600px] lg:w-[800px] pt-[30px]"
+    >
+      <input
+        type="text"
+        placeholder="Search for city"
+        class="rounded-lg p-[5px] w-[300px] xs:w-[400px] sm:w-[500px] md:w-[600px] lg:w-[700px] mx-auto text text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl shadow-[0px_0px_6px_gray]"
+      />
+      <button class="rounded-lg bg-blue-500 w-fit mx-auto mt-[10px] p-[5px] hover:bg-white hover:text-black text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl text-white shadow-[0px_0px_3px_black] hover:shadow-[2px_2px_3px_blue]">Search</button>
+    </div>
+
+    <div class="cards-section flex flex-wrap justify-center gap-[20px] mt-[40px]">
+        <!-- ., Card 1 -->
+      <div class="card---cards-section w-[200px]  sm:w-[200px] md:w-[300px] lg:w-[400px] p-[10px] border-[2px] rounded-xl border-[white] bg-blue-100 shadow-[0px_0px_5px_green]">
+        <div class="button-div-delete-button text-end">
+            <button class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl bg-red-400 p-[3px] rounded-lg text-white hover:bg-red-600">Delete</button>
+        </div>
+        <h1 class="font-light xs:font-light sm:font-normal md:font-medium lg:font-semibold text-md xs:text-lg sm:text-xl md:text-2xl lg:text-3xl">
+          Lahore
+        </h1>
+        <h1 class="text- xs:text-sm sm:text-md md:text-lg lg:text-xl">2024-08-07 23:9,Pakistan</h1>
+        <h1 class="mt-[10px] text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl">Country: Pakistan</h1>
+        <div class="flex items-center gap-[50px] justify-center mt-[10px]">
+            <h1 class="text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl font-light xs:font-light sm:font-normal md:font-medium lg:font-semibold">30.4°C</h1>
+            <img src="./clouds-png-22.png" alt="clouds-image" class="w-[60px] xs:w-[70px] sm:w-[80px] md:w-[90px] lg:w-[100px]">
+        </div>
+        <h1 class="text-start text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl">Patchy rain nearby</h1>
+    </div>
+
+<!-- ., Card 2 -->
+<div class="card---cards-section w-[200px]  sm:w-[200px] md:w-[300px] lg:w-[400px] p-[10px] border-[2px] rounded-xl border-[white] bg-blue-100 shadow-[0px_0px_5px_green]">
+    <div class="button-div-delete-button text-end">
+        <button class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl bg-red-400 p-[3px] rounded-lg text-white hover:bg-red-600">Delete</button>
+    </div>
+    <h1 class="font-light xs:font-light sm:font-normal md:font-medium lg:font-semibold text-md xs:text-lg sm:text-xl md:text-2xl lg:text-3xl">
+      Karachi
+    </h1>
+    <h1 class="text- xs:text-sm sm:text-md md:text-lg lg:text-xl">2024-08-07 23:9,Pakistan</h1>
+    <h1 class="mt-[10px] text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl">Country: Pakistan</h1>
+    <div class="flex items-center gap-[50px] justify-center mt-[10px]">
+        <h1 class="text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl font-light xs:font-light sm:font-normal md:font-medium lg:font-semibold">30.4°C</h1>
+        <img src="./clouds-png-22.png" alt="clouds-image" class="w-[60px] xs:w-[70px] sm:w-[80px] md:w-[90px] lg:w-[100px]">
+    </div>
+    <h1 class="text-start text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl">Cloudy</h1>
+</div>
+
+
+<!-- ., Card 3 -->
+<div class="card---cards-section w-[200px]  sm:w-[200px] md:w-[300px] lg:w-[400px] p-[10px] border-[2px] rounded-xl border-[white] bg-blue-100 shadow-[0px_0px_5px_green]">
+    <div class="button-div-delete-button text-end">
+        <button class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl bg-red-400 p-[3px] rounded-lg text-white hover:bg-red-600">Delete</button>
+    </div>
+    <h1 class="font-light xs:font-light sm:font-normal md:font-medium lg:font-semibold text-md xs:text-lg sm:text-xl md:text-2xl lg:text-3xl">
+      Islamabad
+    </h1>
+    <h1 class="text- xs:text-sm sm:text-md md:text-lg lg:text-xl">2024-08-07 23:9,Pakistan</h1>
+    <h1 class="mt-[10px] text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl">Country: Pakistan</h1>
+    <div class="flex items-center gap-[50px] justify-center mt-[10px]">
+        <h1 class="text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl font-light xs:font-light sm:font-normal md:font-medium lg:font-semibold">30.4°C</h1>
+        <img src="./clouds-png-22.png" alt="clouds-image" class="w-[60px] xs:w-[70px] sm:w-[80px] md:w-[90px] lg:w-[100px]">
+    </div>
+    <h1 class="text-start text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl">Heavy rain</h1>
+</div>
+
+
+
+<!-- ., Card 4 -->
+<div class="card---cards-section w-[200px]  sm:w-[200px] md:w-[300px] lg:w-[400px] p-[10px] border-[2px] rounded-xl border-[white] bg-blue-100 shadow-[0px_0px_5px_green]">
+    <div class="button-div-delete-button text-end">
+        <button class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl bg-red-400 p-[3px] rounded-lg text-white hover:bg-red-600">Delete</button>
+    </div>
+    <h1 class="font-light xs:font-light sm:font-normal md:font-medium lg:font-semibold text-md xs:text-lg sm:text-xl md:text-2xl lg:text-3xl">
+      Sukkur
+    </h1>
+    <h1 class="text- xs:text-sm sm:text-md md:text-lg lg:text-xl">2024-08-07 23:9,Pakistan</h1>
+    <h1 class="mt-[10px] text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl">Country: Pakistan</h1>
+    <div class="flex items-center gap-[50px] justify-center mt-[10px]">
+        <h1 class="text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl font-light xs:font-light sm:font-normal md:font-medium lg:font-semibold">30.4°C</h1>
+        <img src="./clouds-png-22.png" alt="clouds-image" class="w-[60px] xs:w-[70px] sm:w-[80px] md:w-[90px] lg:w-[100px]">
+    </div>
+    <h1 class="text-start text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl">Light rain</h1>
+</div>
+
+
+
+<!-- ., Card 5 -->
+<div class="card---cards-section w-[200px]  sm:w-[200px] md:w-[300px] lg:w-[400px] p-[10px] border-[2px] rounded-xl border-[white] bg-blue-100 shadow-[0px_0px_5px_green]">
+    <div class="button-div-delete-button text-end">
+        <button class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl bg-red-400 p-[3px] rounded-lg text-white hover:bg-red-600">Delete</button>
+    </div>
+    <h1 class="font-light xs:font-light sm:font-normal md:font-medium lg:font-semibold text-md xs:text-lg sm:text-xl md:text-2xl lg:text-3xl">
+      Multan
+    </h1>
+    <h1 class="text- xs:text-sm sm:text-md md:text-lg lg:text-xl">2024-08-07 23:9,Pakistan</h1>
+    <h1 class="mt-[10px] text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl">Country: Pakistan</h1>
+    <div class="flex items-center gap-[50px] justify-center mt-[10px]">
+        <h1 class="text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl font-light xs:font-light sm:font-normal md:font-medium lg:font-semibold">30.4°C</h1>
+        <img src="./clouds-png-22.png" alt="clouds-image" class="w-[60px] xs:w-[70px] sm:w-[80px] md:w-[90px] lg:w-[100px]">
+    </div>
+    <h1 class="text-start text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl">rain</h1>
+</div>
+
+
+<!-- ., Card 6 -->
+<div class="card---cards-section w-[200px]  sm:w-[200px] md:w-[300px] lg:w-[400px] p-[10px] border-[2px] rounded-xl border-[white] bg-blue-100 shadow-[0px_0px_5px_green]">
+    <div class="button-div-delete-button text-end">
+        <button class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl bg-red-400 p-[3px] rounded-lg text-white hover:bg-red-600">Delete</button>
+    </div>
+    <h1 class="font-light xs:font-light sm:font-normal md:font-medium lg:font-semibold text-md xs:text-lg sm:text-xl md:text-2xl lg:text-3xl">
+      Toronto
+    </h1>
+    <h1 class="text- xs:text-sm sm:text-md md:text-lg lg:text-xl">2024-08-07 2:4,Canada</h1>
+    <h1 class="mt-[10px] text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl">Country: Pakistan</h1>
+    <div class="flex items-center gap-[50px] justify-center mt-[10px]">
+        <h1 class="text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl font-light xs:font-light sm:font-normal md:font-medium lg:font-semibold">30.4°C</h1>
+        <img src="./clouds-png-22.png" alt="clouds-image" class="w-[60px] xs:w-[70px] sm:w-[80px] md:w-[90px] lg:w-[100px]">
+    </div>
+    <h1 class="text-start text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl">Sunny</h1>
+</div>
+
+</div>
+
+
+
+
+    <!-- ., Daisy Ui Cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- ., Tailwind CSS Cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
