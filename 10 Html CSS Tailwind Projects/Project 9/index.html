@@ -1,19 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project 9</title>
-</head>
-<body>
-    
+
+    <!-- ., Font Awesome Cdn -->
+    <script
+      src="https://kit.fontawesome.com/0ae0890014.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- ., Navbar section started -->
+    <div
+      class="navbar-section flex items-center justify-between px-[70px] py-[15px]"
+    >
+      <div class="logo-section">
+        <h1
+          class="font-light xs:font-normal sm:font-medium md:font-semibold lg:font-bold text-md xs:text-lg sm:text-xl md:text-2xl lg:text-3xl"
+        >
+          Great Zone
+        </h1>
+      </div>
+      <div
+        class="links-section flex gap-[20px] items-center text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl hidden sm:hidden md:block lg:block md:flex lg:flex"
+      >
+        <h1>
+          <a
+            href="home.html"
+            class="font-thin xs:font-light sm:font-normal md:font-medium lg:font-semibold hover:drop-shadow-xl hover:text-slate-600"
+            >Home</a
+          >
+        </h1>
+        <h1>
+          <a
+            href="post.html"
+            class="font-thin xs:font-light sm:font-normal md:font-medium lg:font-semibold hover:drop-shadow-xl hover:text-slate-600"
+            >Post</a
+          >
+        </h1>
+        <i
+          class="fa-brands fa-instagram p-[5px] rounded-lg hover:shadow-[0px_0px_4px_black] transition duration-[500ms] ease-in"
+        ></i>
+        <i
+          class="fa-brands fa-x-twitter p-[5px] rounded-lg hover:shadow-[0px_0px_4px_black] transition duration-[500ms] ease-in"
+        ></i>
+        <i
+          class="fa-brands fa-linkedin p-[5px] rounded-lg hover:shadow-[0px_0px_4px_black] transition duration-[500ms] ease-in"
+        ></i>
+      </div>
+
+      <div
+        class="text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl block sm:block md:hidden lg:hidden md:flex lg:flex"
+      >
+        <i
+          class="fa-solid fa-bars p-[5px] rounded-lg hover:shadow-[0px_0px_4px_black] transition duration-[500ms] ease-in"
+        ></i>
+      </div>
+    </div>
+    <!-- ., Navbar section ended -->
+
+    <!-- ., Hero section started -->
+    <div class="hero flex mt-[100px]">
+      <div
+        class="flex flex-col text-center lg:text-start lg:flex-row-reverse items-center gap-[30px] mx-[10px]"
+      >
+        <img
+          src="./Assets/Images/hero.png"
+          class="rounded-[50px] w-[300px] xs:w-[350px] sm:w-[400px] md:w-[500px] lg:w-[500px]"
+        />
+        <div>
+          <h1
+            class="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light xs:font-normal sm:font-medium md:font-semibold lg:font-bold"
+          >
+            Make Zone Better!
+          </h1>
+          <p
+            class="py-6 text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl font-thin xs:font-light sm:font-normal md:font-medium lg:font-semibold"
+          >
+            Why better zone important?
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- ., Hero section ended -->
+
+    <!-- ., Long card section  started-->
+    <div class="flex justify-center">
+      <div
+        class="flex flex-col text-center md:text-center lg:text-start md:flex-col lg:flex-row justify-between lg:shadow-[0px_0px_3px_gray] lg:w-[1100px] rounded-2xl mt-[50px] h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[40vh] 2xl:h-[40vh]"
+      >
+        <div class="flex flex-col flex-start p-[50px] basis-[70%]">
+          <h2
+            class="font-light xs:font-normal sm:font-medium md:font-semibold lg:font-bold text-md xs:text-lg sm:text-xl md:text-2xl lg:text-3xl"
+          >
+            Long established!
+          </h2>
+          <p
+            class="mt-[10px] font-light sm:font-normal md:font-medium lg:font-semibold text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            unde repellat distinctio illum! Fugit iusto dolorem sapiente, est
+            quo ea? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Debitis, nihil. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Dolore, quisquam hic dicta nulla ipsum dolorum maiores
+            obcaecati temporibus blanditiis id.
+          </p>
+          <div class="flex justify-between">
+            <p
+              class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-thin sm:font-light md:font-normal lg:font-medium"
+            >
+              8 Feb 2022
+            </p>
+            <p
+              class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-thin sm:font-light md:font-normal lg:font-medium hover:drop-shadow-xl cursor-pointer hover:border-b-[5px] duration-100"
+            >
+              Read More
+            </p>
+          </div>
+        </div>
+        <div>
+          <img
+            src="./Assets/Images/long-card.png"
+            alt="Album"
+            class="rounded-2xl mx-auto xs:mx-auto sm:mx-auto md:mx-auto w-[200px] h-[200px] xs:w-[250px] xs:h-[250px] sm:w-[300px] sm:h-[300px] md:w-[350px] md:h-[350px] lg:h-full lg:w-[550px] transition trasnform hover:scale-110 duration-300"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- .,Long card section ended -->
 
 
-    
+    <!-- ., Cards section started -->
+    <div class="flex justify-center gap-[100px] mt-[430px] xs:mt-[420px] sm:mt-[410px] md:mt-[390px] lg:mt-[50px] flex-wrap md:flex-wrap lg:flex-nowrap mx-[20px] sm:mx-[20px] md:mx-[10px] lg:mx-[10px]">
+      <!-- ., Card 1 -->
+      <div class="card w-96 shadow-2xl transition duration-100 transform hover:scale-95 cursor-pointer">
+        <div class="p-[20px]">
+          <h2
+            class="text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl font-thin xs:font-light sm:font-normal md:font-medium lg:font-semibold"
+          >
+            Long established!
+          </h2>
+          <p
+            class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-thin sm:font-light md:font-normal lg:font-medium"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+            consequuntur voluptatibus, voluptatum tenetur voluptate nostrum cum
+            optio molestias minus deleniti.?
+          </p>
+          <div class="flex justify-between">
+            <p
+              class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-thin sm:font-light md:font-normal lg:font-medium"
+            >
+              8 Feb 2022
+            </p>
+            <p
+              class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-thin sm:font-light md:font-normal lg:font-medium hover:drop-shadow-xl cursor-pointer hover:border-b-[5px] duration-100"
+            >
+              Read More
+            </p>
+          </div>
+        </div>
+        <figure>
+          <img
+            src="./Assets/Images/card1.png"
+            class="w-full"
+            alt="Shoes"
+          />
+        </figure>
+      </div>
+
+      <!-- ., Card 2 -->
+      <div class="card w-96 shadow-2xl transition duration-100 transform hover:scale-95 cursor-pointer">
+        <div class="p-[20px]">
+          <h2
+            class="text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl font-thin xs:font-light sm:font-normal md:font-medium lg:font-semibold"
+          >
+            Long established!
+          </h2>
+          <p
+            class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-thin sm:font-light md:font-normal lg:font-medium"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+            consequuntur voluptatibus, voluptatum tenetur voluptate nostrum cum
+            optio molestias minus deleniti.?
+          </p>
+          <div class="flex justify-between">
+            <p
+              class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-thin sm:font-light md:font-normal lg:font-medium"
+            >
+              8 Feb 2022
+            </p>
+            <p
+              class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-thin sm:font-light md:font-normal lg:font-medium hover:drop-shadow-xl cursor-pointer hover:border-b-[5px] duration-100"
+            >
+              Read More
+            </p>
+          </div>
+        </div>
+        <figure>
+          <img
+            src="./Assets/Images/card2.png"
+            class="w-full"
+            alt="Shoes"
+          />
+        </figure>
+      </div>
+
+      <!-- ., Card 3 -->
+      <div class="card w-96 shadow-2xl transition duration-100 transform hover:scale-95 cursor-pointer">
+        <div class="p-[20px]">
+          <h2
+            class="text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl font-thin xs:font-light sm:font-normal md:font-medium lg:font-semibold"
+          >
+            Long established!
+          </h2>
+          <p
+            class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-thin sm:font-light md:font-normal lg:font-medium"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+            consequuntur voluptatibus, voluptatum tenetur voluptate nostrum cum
+            optio molestias minus deleniti.?
+          </p>
+          <div class="flex justify-between">
+            <p
+              class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-thin sm:font-light md:font-normal lg:font-medium"
+            >
+              8 Feb 2022
+            </p>
+            <p
+              class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-thin sm:font-light md:font-normal lg:font-medium hover:drop-shadow-xl cursor-pointer hover:border-b-[5px] duration-100"
+            >
+              Read More
+            </p>
+          </div>
+        </div>
+        <figure>
+          <img
+            src="./Assets/Images/card3.png"
+            class="w-full"
+            alt="Shoes"
+          />
+        </figure>
+      </div>
+    </div>
+    <!-- ., Cards section ended -->
+
+<!-- ., Long big card section  started-->
+<div class="flex justify-center">
+  <div
+    class="flex flex-col text-center md:text-center lg:text-start md:flex-col lg:flex-row justify-between lg:shadow-[0px_0px_3px_gray] lg:w-[1100px] rounded-2xl mt-[50px] h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[40vh] 2xl:h-[40vh] gap-[50px]"
+  >
+    <div class="flex flex-col flex-start p-[50px] basis-[70%]">
+      <h2
+        class="font-light xs:font-normal sm:font-medium md:font-semibold lg:font-bold text-md xs:text-lg sm:text-xl md:text-2xl lg:text-3xl"
+      >
+        Long established!
+      </h2>
+      <p
+        class="mt-[10px] font-light sm:font-normal md:font-medium lg:font-semibold text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+        unde repellat distinctio illum! Fugit iusto dolorem sapiente, est
+        quo ea? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Debitis, nihil. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Dolore, quisquam hic dicta nulla ipsum dolorum maiores
+        obcaecati temporibus blanditiis id.
+      </p>
+      <div class="flex justify-between">
+        <p
+          class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-thin sm:font-light md:font-normal lg:font-medium"
+        >
+          8 Feb 2022
+        </p>
+        <p
+          class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl font-thin xs:font-thin sm:font-light md:font-normal lg:font-medium hover:drop-shadow-xl cursor-pointer hover:border-b-[5px] duration-100"
+        >
+          Read More
+        </p>
+      </div>
+    </div>
+    <div>
+      <img
+        src="./Assets/Images/long-big-card.png"
+        alt="Album"
+        class="rounded-2xl mx-auto xs:mx-auto sm:mx-auto md:mx-auto w-[200px] h-[200px] xs:w-[250px] xs:h-[250px] sm:w-[300px] sm:h-[300px] md:w-[350px] md:h-[350px] lg:h-full lg:w-[550px] transition trasnform hover:scale-110 duration-300"
+      />
+    </div>
+  </div>
+</div>
+<!-- .,Long big card section ended -->
+
+
+
+
+<!-- ., Footer section started -->
+<footer class="footer items-center p-4 shadow-[1px_0px_3px_black] mt-[500px] md:mt-[500px] lg:mt-[20px]">
+  <aside class="grid-flow-col items-center text-black">
+    <p class="text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl">Great Zone 2022 copyright © all right reserved</p>
+  </aside>
+
+  <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl">
+    <i
+          class="fa-brands fa-instagram p-[5px] rounded-lg hover:shadow-[0px_0px_4px_black] transition duration-[500ms] ease-in"
+        ></i>
+        <i
+          class="fa-brands fa-x-twitter p-[5px] rounded-lg hover:shadow-[0px_0px_4px_black] transition duration-[500ms] ease-in"
+        ></i>
+        <i
+          class="fa-brands fa-linkedin p-[5px] rounded-lg hover:shadow-[0px_0px_4px_black] transition duration-[500ms] ease-in"
+        ></i>
+      </div>
+
+      <div
+        class="text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl block sm:block md:hidden lg:hidden md:flex lg:flex"
+      >
+        <i
+          class="fa-solid fa-bars p-[5px] rounded-lg hover:shadow-[0px_0px_4px_black] transition duration-[500ms] ease-in"
+        ></i>    
+  </nav>
+
+</footer>
+<!-- ., Footer section ended -->
+
 
     <!-- ., Daisy Ui Cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <!-- ., Tailwind CSS Cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
-</body>
+  </body>
 </html>
