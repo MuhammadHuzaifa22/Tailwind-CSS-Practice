@@ -1,1 +1,1 @@
-https://tailwind-project-2-css.netlify.app/
+https://iridescent-belekoy-25108e.netlify.app/
