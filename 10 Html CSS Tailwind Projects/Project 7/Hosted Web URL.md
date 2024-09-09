@@ -1,1 +1,1 @@
-https://tailwind-project-7-css.netlify.app/
+https://magical-bombolone-b4827c.netlify.app/
